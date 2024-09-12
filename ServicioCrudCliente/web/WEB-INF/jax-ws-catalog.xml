@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/Servicio-CRUD1/Servicios?wsdl" uri="wsdl/localhost_8080/Servicio-CRUD1/Servicios.wsdl"/>
+    <system systemId="http://localhost:8080/Servicio-CRUD1/Servicios?xsd=1" uri="wsdl/localhost_8080/Servicio-CRUD1/Servicios.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/Servicio-CRUD/Servicios?wsdl" uri="wsdl/localhost_8080/Servicio-CRUD/Servicios.wsdl"/>
+    <system systemId="http://localhost:8080/Servicio-CRUD/Servicios?xsd=1" uri="wsdl/localhost_8080/Servicio-CRUD/Servicios.xsd_1.xsd"/>
+</catalog>

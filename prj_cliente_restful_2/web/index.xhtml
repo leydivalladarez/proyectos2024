@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:outputText id="o_id" value="Id:"></h:outputText>
+            <h:inputText id="i_id" value="#{cls_presentacion.id}" ></h:inputText>
+            <br></br>
+            <h:outputText id="o_nombre" value="Nombre:"></h:outputText>
+            <h:inputText id="i-nombre" value="#{cls_presentacion.nombre}" ></h:inputText>
+            <br></br>
+            <h:outputText id="o_apellido" value="Apellido"></h:outputText>
+            <h:inputText id="i-apellido" value="#{cls_presentacion.apellido}" ></h:inputText>
+            <br></br>
+            <h:outputText id="o_direccion" value="Direccion:"></h:outputText>
+            <h:inputText id="i-direccion" value="#{cls_presentacion.direccion}" ></h:inputText>
+            <br></br>
+            <h:commandButton id="Insertar" value="Insertar"
+                             action="#{cls_presentacion.insertar()}"></h:commandButton>
+        </h:form>
+    </h:body>
+</html>
